@@ -4,8 +4,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.13', '< 0.5'
+=======
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
 =======
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -18,11 +23,16 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 <<<<<<< HEAD
+<<<<<<< HEAD
  gem 'therubyracer', platforms: :ruby
  gem 'execjs'
  gem 'roo'
  gem 'devise'
  gem 'simple_form'
+=======
+# gem 'therubyracer', platforms: :ruby
+
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
 =======
 # gem 'therubyracer', platforms: :ruby
 

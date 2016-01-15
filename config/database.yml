@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MySQL.  Versions 5.0+ are recommended.
 #
 # Install the MYSQL driver
@@ -22,6 +23,8 @@ development:
   <<: *default
   database: ids_development
 =======
+=======
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -36,6 +39,9 @@ default: &default
 development:
   <<: *default
   database: db/development.sqlite3
+<<<<<<< HEAD
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
+=======
 >>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
 
 # Warning: The database defined as "test" will be erased and
@@ -43,6 +49,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+<<<<<<< HEAD
 <<<<<<< HEAD
   database: ids_test
 
@@ -71,9 +78,14 @@ production:
   username: ids
   password: <%= ENV['IDS_DATABASE_PASSWORD'] %>
 =======
+=======
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
   database: db/test.sqlite3
 
 production:
   <<: *default
   database: db/production.sqlite3
+<<<<<<< HEAD
+>>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
+=======
 >>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
