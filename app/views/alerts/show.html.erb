@@ -1,0 +1,18 @@
+
+<p>
+  <strong>Title:</strong>
+  <%= @alert.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @alert.description %>
+</p>
+
+<p>
+  <strong>Sid:</strong>
+  <%= @alert.sid %>
+</p>
+
+<%= link_to 'Edit', edit_alert_path(@alert) %> |
+<%= link_to 'Back', alerts_path %>
