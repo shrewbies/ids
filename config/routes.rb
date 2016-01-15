@@ -1,25 +1,15 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
-<<<<<<< HEAD
   devise_for :users
   resources :alerts
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-<<<<<<< HEAD
-<<<<<<< HEAD
+
    root 'alerts#index'
 
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
