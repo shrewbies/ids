@@ -10,7 +10,6 @@ Rails.application.routes.draw do
 
    root 'alerts#index'
 
-
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
