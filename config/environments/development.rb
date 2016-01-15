@@ -14,13 +14,9 @@ Rails.application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send.
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   config.action_mailer.default_url_options = {:host => 'limbo.sr.unh.edu:3000' }
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
-=======
->>>>>>> 28a407c6ea23d380a1bdb8e7accf1a2949f8cc77
+
   config.action_mailer.raise_delivery_errors = false
 
   # Print deprecation notices to the Rails logger.
